@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Press+Start+2P&family=Shadows+Into+Light&display=swap');
+
+body
+{
+    background-color: #f6f5f5;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+ul
+{
+   list-style: none; 
+}
+
+a
+{
+    text-decoration: none;
+}
+
+section
+{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 95vh;
+    background-image: url(img/eu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px ;
+}
+
+
+nav
+{
+    font-family: 'Shadows Into Light', cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav ul li a
+{
+    margin: 30px;
+    color: #505050;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.logo
+{
+    color: #000000;
+    font-size: 22px;
+}
+
+.active
+{
+    font-weight: bold;
+    color: #6f22b8;
+}
+
+/*Estilização de texto cabeçalho*/
+
+.ConteudoTexto p:nth-child(1)
+{
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    color: #6f22b8;
+    font-size: 30px;
+}
+
+.ConteudoTexto p:nth-child(2)
+{
+    font-family: 'PT Serif', serif;
+    font-family: bold;
+    letter-spacing: 0.5px;
+    color: #000;
+    font-size: 50px;
+
+}
+
+.ConteudoTexto p:nth-child(3)
+{
+    font-family: 'PT Serif', serif;
+    color: #1d161c;
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.ConteudoTexto
+{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+
+.ConteudoTexto
+{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
+
+.ConteudoTexto button
+{
+    width: 130px;
+    height: 42px;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+}
+
+/* Link botão âncora*/
+.BotaoLink
+{
+    width: 80px;
+    height: 20px;
+    font-family: 'PT Serif', serif;
+    border: none;
+    padding: 10px;
+    outline: none;
+    background-color: #8a2be2;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/*Estilização Link Ícone âncora*/
+.ContatoIconeLink
+{
+    width: 37px;
+    height: 37px;
+    background-image: url(../img/github.png);
+    padding: 0px;
+}
+
+.btn1
+{
+    width: 100px;
+    height: 40px;
+    font-family: 'PT Serif', serif;
+    border: none;
+    padding: 10px;
+    outline: none;
+    background-color: #8a2be2;
+    color: #fff;
+    font-weight: bold;
+}
+
+button:active
+{
+    transform: scale(1.1);
+}
+
+/*Estilização da imagem de fundo*/
+
+.imgbg
+{
+    height: 490px;
+    position: absolute;
+    bottom: 40px;
+    left: 90%;
+    transform: translateX(-70%);
+}
+
+/*Estilização de Conteúdo Sobre*/
+
+.ConteudoSobre
+{
+    width: 80%;
+    height: 330px;
+    left: 10%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin: -7% auto 20 px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: -30px;
+}
+
+.ConteudoSobre img
+{
+    height: auto;
+    width: 243px;
+    bottom: -30px;
+    position: static;
+ 
+}
+
+.TextoSobre
+{
+    width: 550px;
+}
+
+.ConteudoSobre p:nth-child(1)
+{
+    color:  #8a2be2;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 20px;
+}   
+
+.ConteudoSobre p:nth-child(2)
+{
+    color: #000;
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    line-height: 23px; 
+}
+
+.ConteudoSobre p:nth-child(3)
+{
+    color: rgb(39, 38, 38);
+    font-family: 'PT Serif', serif;
+    font-size: 18px;
+}
+
+/*Estilização de Projetos*/
+
+.Projetos
+{
+    height: 600px;
+    background-color: #fff;
+}
+
+.ProjetosTextos p:nth-child(1)
+{
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    color: #8a2be2;
+    font-size: 28px;
+    line-height: 80px;
+    position: relative;
+}
+
+.ProjetosTextos p:nth-child(2)
+{
+    font-family: 'PT Serif', serif;
+    color: #000000;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.ProjetosTextos
+{
+    width: 1150px;
+    margin: 50px 0px 0px 50px;
+}
+
+.Box1, .Box2, .Box3
+{
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ConteudoBox
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Box1
+{
+    background-image: url(../img/servico.png);
+}
+
+.Box2
+{
+    background-image: url(../img/servico.png);
+}
+
+.Box3
+{
+    background-image: url(../img/servico.png);
+}
+
+.Box1 span,
+.Box2 span,
+.Box3 span
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Box1 p:nth-child(2),
+.Box2 p:nth-child(2),
+.Box3 p:nth-child(2)
+{
+    color: #ffffff;
+    font-family: 'PT Serif', serif;
+    font-size: 23px;
+    line-height: 0px;
+}
+
+.Box1 p:nth-child(3),
+.Box2 p:nth-child(3),
+.Box3 p:nth-child(3)
+{
+    color: #a7a5a5;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    font-size: 15px;
+    width: 250px;
+    margin: 0px 0px 20px 0px;
+   
+}
+
+.Box1 button,
+.Box2 button,
+.Box3 button
+{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    margin-bottom: 10px;
+}
+
+/*Seção fale comigo*/
+
+.Contato
+{
+    width: 100%;
+    height: 330px;
+    background-image: url(../img/auroraboreal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: none;
+}
+
+.Contato p
+{
+    font-family: 'PT Serif', serif;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #ffffff;
+}
+
+.Contato button
+{
+    width: 200px;
+    height: 40px;
+    background-color: #8a2be2;
+    color: #ffffff;
+    outline: none;
+    font-family: 'PT Serif', serif;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*Seção footer*/
+
+footer
+{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+footer p
+{
+    font-family: 'PT Serif', serif;
+}
+
+footer p:nth-child(1)
+{
+    font-weight: bold;
+    color: #8a2be2;
+    line-height: 10px;
+    font-size: 30px;
+}
+
+footer p:nth-child(2)
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+    width: 500px;
+    text-align: center;
+}
+
+.Copy
+{
+    color: #565555;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
